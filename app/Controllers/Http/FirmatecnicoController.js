@@ -32,7 +32,7 @@ class FirmatecnicoController {
     firmatecnico.firmatecnico = request.input('firmatecnico');
     firmatecnico.save();
 
-    response.redirect('/firmatecnico/edit');
+    response.redirect('/firmacliente/{{firmacliente.id}}/edit');
 
   }
 

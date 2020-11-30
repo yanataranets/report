@@ -89,7 +89,7 @@ class ReportController {
 
     report.save();
 
-    response.redirect('/firmatecnico/edit');
+    response.redirect('/firmatecnico/{{firmatecnico.id}}/edit');
 
   }
 

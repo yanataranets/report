@@ -43,10 +43,7 @@ $(document).ready(function () {
   });
 });
 
-const path = require('path')
-const edge = require('edge.js')
 
-edge.registerViews(path.join(__dirname, './view'))
 
 ReactDOM.render(
   <React.StrictMode>

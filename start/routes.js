@@ -39,7 +39,7 @@ Route.get('/report/edit', 'ReportController.edit')
 Route.get('/report/show', 'ReportController.show')
 Route.post('/report', 'ReportController.store')
 Route.get('/report/:id/edit', 'ReportController.edit')
-Route.get('/post/:id', 'ReportController.show')
+Route.get('/report/:id', 'ReportController.show')
 Route.put('/report/:id', 'ReportController.update')
 
 // Route.get('/cantidadd', 'CantidaddController.index')

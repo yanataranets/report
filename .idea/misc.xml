@@ -6,6 +6,5 @@
   <component name="ProjectPlainTextFileTypeManager">
     <file url="file://$PROJECT_DIR$/resources/views/cantidadd/create.edge" />
     <file url="file://$PROJECT_DIR$/resources/views/cantidadd/edit.edge" />
-    <file url="file://$PROJECT_DIR$/resources/views/report/show.edge" />
   </component>
 </project>

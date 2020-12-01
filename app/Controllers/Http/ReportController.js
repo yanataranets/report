@@ -95,7 +95,7 @@ class ReportController {
 
   async show({view, params }){
     const report = await Report.find(params.id)
-    return view.render('report/show', {report: report});
+    return view.render('/report/show', {report: report});
   }
 }
 

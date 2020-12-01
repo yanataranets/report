@@ -8,16 +8,14 @@ class FirmatecnicoController {
       firmatecnicos: firmatecnicos.toJSON()
     })
   }
-
   async create({view}){
     return view.render('firmatecnico/create');
   }
-
   async store({ request,response }) {
     const firmatecnico = new Firmatecnico();
     firmatecnico.firmatecnico = request.input('firmatecnico');
     firmatecnico.save();
-    response.redirect('/firmacliente/create');
+    response.redirect('/firmacliente/{{firmacliente.id}}/edit');
 
   }
   async edit({view, params }) {
@@ -36,9 +34,6 @@ class FirmatecnicoController {
 
   }
 
-  // async show({view}){
-  //   return view.render('firmatecnico/show');
-  // }
 
 }
 

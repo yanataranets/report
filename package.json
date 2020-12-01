@@ -33,6 +33,7 @@
     "@adonisjs/validator": "^5.0.0",
     "@babel/core": "^7.12.3",
     "@babel/preset-react": "^7.12.5",
+    "adonis-pdf": "0.0.22",
     "babel-loader": "^8.2.1",
     "cmd-shim": "^4.0.2",
     "edge.js": "^1.1.4",
